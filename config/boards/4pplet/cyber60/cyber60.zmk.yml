@@ -15,8 +15,4 @@ outputs:
 url: https://4pplet.com
 revisions:
   - A
-  - B
-  - C
-  - D
-  - E
-default_revision: E
+default_revision: A
