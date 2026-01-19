@@ -8,7 +8,7 @@ board:
     default: rev_e
     revisions:
       - name: rev_a
-      - name: rev_b
-      - name: rev_c
-      - name: rev_d
-      - name: rev_e
+#      - name: rev_b
+#      - name: rev_c
+#      - name: rev_d
+#      - name: rev_e
