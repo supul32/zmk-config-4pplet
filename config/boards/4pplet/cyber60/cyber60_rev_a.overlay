@@ -25,25 +25,6 @@
         power-gpios = <&gpio1 15 GPIO_ACTIVE_HIGH>;
     };
 
-    leds {
-        compatible = "gpio-leds";
-        led_1: led_red {
-            gpios = <&gpio1 13 GPIO_ACTIVE_LOW>;
-        };
-        led_0: led_green {
-            gpios = <&gpio0 28 GPIO_ACTIVE_LOW>;
-        };
-        led_2: led_blue {
-            gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
-        };
-    };
-
-    aliases {
-        ledgreen = &led_0;
-        ledred   = &led_1;
-        ledblue  = &led_2;
-    };
-
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <11>;
